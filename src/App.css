@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.body {
+  min-height: 65.5vh;
+}
+
+/* COUPON CARD */
+.imgContainer {
+  /* background-color: darkblue; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: auto;
+  gap: 2rem;
+  padding: 1rem;
+}
+
+.imgCard {
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.img {
+  /* padding: 0.5rem; */
+}
+
+.img img {
+  width: 250px;
+  height: 250px;
+  border-radius: 20px 20px 0 0;
+}
+
+.textCard {
+  /* background-color: bisque; */
+  color: #333;
+}
+/* COUPON CARD */
+
+/* FOOTER */
+.followContainer {
+  /* background-color: #333; */
+  height: 200px;
+}
+
+.follow {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1.5rem;
+  color: #fff;
+}
+
+.iconContainer {
+  padding-left: 1rem;
+}
+
+.followList {
+  display: flex;
+  list-style-type: none;
+  padding: unset;
+  align-items: center;
+}
+
+.followList.addr {
+  padding-left: 0.5rem;
+}
+
+.firstList {
+  width: 4rem;
+}
+
+.lastList {
+  padding-left: 0.5rem;
+}
+/* FOOTER */
