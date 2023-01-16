@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import CouponCategory from "./Category/CouponCategory";
 import CouponCard from "./Coupon/CouponCard";
 
