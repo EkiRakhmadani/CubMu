@@ -5,9 +5,7 @@ const Header = () => {
     <>
       <nav className="navbar navbar-dark navbar-expand-lg bg-dark">
         <div className="container">
-          <a className="navbar-brand text-danger" href="#">
-            CubMu
-          </a>
+          <a className="navbar-brand text-danger">CubMu</a>
           <button
             className="navbar-toggler text-light"
             type="button"
@@ -23,21 +21,13 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a
-                  className="nav-link active text-light"
-                  aria-current="page"
-                  href="#"
-                >
+                <a className="nav-link active text-light" aria-current="page">
                   Home
                 </a>
               </li>
 
               <li className="nav-item">
-                <a
-                  className="nav-link active text-light"
-                  aria-current="page"
-                  href="#"
-                >
+                <a className="nav-link active text-light" aria-current="page">
                   Live Tv
                 </a>
               </li>
@@ -45,7 +35,6 @@ const Header = () => {
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle text-light"
-                  href="#"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -54,49 +43,31 @@ const Header = () => {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Main
-                    </a>
+                    <a className="dropdown-item">Main</a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Travel
-                    </a>
+                    <a className="dropdown-item">Travel</a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Fashion
-                    </a>
+                    <a className="dropdown-item">Fashion</a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Entertainment
-                    </a>
+                    <a className="dropdown-item">Entertainment</a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
-                      Baverages
-                    </a>
+                    <a className="dropdown-item">Baverages</a>
                   </li>
                 </ul>
               </li>
 
               <li className="nav-item">
-                <a
-                  className="nav-link active text-light"
-                  aria-current="page"
-                  href="#"
-                >
+                <a className="nav-link active text-light" aria-current="page">
                   Catch Up
                 </a>
               </li>
 
               <li className="nav-item">
-                <a
-                  className="nav-link active text-light"
-                  aria-current="page"
-                  href="#"
-                >
+                <a className="nav-link active text-light" aria-current="page">
                   My List
                 </a>
               </li>
